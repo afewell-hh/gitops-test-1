@@ -1,0 +1,9 @@
+apiVersion: vpc.githedgehog.com/v1alpha2
+kind: VPC
+metadata:
+  name: test-vpc
+  namespace: default
+spec:
+  subnets:
+    - cidr: 10.0.1.0/24
+      gateway: 10.0.1.1
