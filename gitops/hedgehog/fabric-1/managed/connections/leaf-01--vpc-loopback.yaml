@@ -1,0 +1,26 @@
+# Connection: leaf-01--vpc-loopback
+# Normalized by Hedgehog NetBox Plugin
+# Generated: 2025-08-06 10:42:27 UTC
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: leaf-01--vpc-loopback
+  annotations:
+    hnp.githedgehog.com/managed-by: hedgehog-netbox-plugin
+    hnp.githedgehog.com/fabric: FGD Sync Validation Fabric
+    hnp.githedgehog.com/original-file: prepop.yaml
+    hnp.githedgehog.com/original-document-index: '21'
+    hnp.githedgehog.com/ingested-at: '2025-08-06T10:42:27.623142+00:00'
+    hnp.githedgehog.com/ingestion-version: '1.0'
+spec:
+  vpcLoopback:
+    links:
+    - switch1:
+        port: leaf-01/E1/12
+      switch2:
+        port: leaf-01/E1/13
+    - switch1:
+        port: leaf-01/E1/14
+      switch2:
+        port: leaf-01/E1/15
