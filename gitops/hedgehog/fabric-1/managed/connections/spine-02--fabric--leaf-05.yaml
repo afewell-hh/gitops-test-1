@@ -1,0 +1,26 @@
+# Connection: spine-02--fabric--leaf-05
+# Normalized by Hedgehog NetBox Plugin
+# Generated: 2025-08-06 10:42:27 UTC
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: spine-02--fabric--leaf-05
+  annotations:
+    hnp.githedgehog.com/managed-by: hedgehog-netbox-plugin
+    hnp.githedgehog.com/fabric: FGD Sync Validation Fabric
+    hnp.githedgehog.com/original-file: prepop.yaml
+    hnp.githedgehog.com/original-document-index: '45'
+    hnp.githedgehog.com/ingested-at: '2025-08-06T10:42:27.659980+00:00'
+    hnp.githedgehog.com/ingestion-version: '1.0'
+spec:
+  fabric:
+    links:
+    - leaf:
+        port: leaf-05/E1/6
+      spine:
+        port: spine-02/E1/9
+    - leaf:
+        port: leaf-05/E1/7
+      spine:
+        port: spine-02/E1/10
