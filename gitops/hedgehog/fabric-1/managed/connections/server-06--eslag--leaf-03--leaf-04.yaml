@@ -1,0 +1,26 @@
+# Connection: server-06--eslag--leaf-03--leaf-04
+# Normalized by Hedgehog NetBox Plugin
+# Generated: 2025-08-06 10:42:27 UTC
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-06--eslag--leaf-03--leaf-04
+  annotations:
+    hnp.githedgehog.com/managed-by: hedgehog-netbox-plugin
+    hnp.githedgehog.com/fabric: FGD Sync Validation Fabric
+    hnp.githedgehog.com/original-file: prepop.yaml
+    hnp.githedgehog.com/original-document-index: '31'
+    hnp.githedgehog.com/ingested-at: '2025-08-06T10:42:27.634637+00:00'
+    hnp.githedgehog.com/ingestion-version: '1.0'
+spec:
+  eslag:
+    links:
+    - server:
+        port: server-06/enp2s1
+      switch:
+        port: leaf-03/E1/2
+    - server:
+        port: server-06/enp2s2
+      switch:
+        port: leaf-04/E1/2
