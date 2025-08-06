@@ -1,6 +1,6 @@
 # VPC: test-vpc-2
 # Normalized by Hedgehog NetBox Plugin
-# Generated: 2025-08-06 09:04:35 UTC
+# Generated: 2025-08-06 10:42:27 UTC
 ---
 apiVersion: vpc.githedgehog.com/v1beta1
 kind: VPC
@@ -12,7 +12,7 @@ metadata:
     hnp.githedgehog.com/fabric: FGD Sync Validation Fabric
     hnp.githedgehog.com/original-file: test-vpc-2.yaml
     hnp.githedgehog.com/original-document-index: '0'
-    hnp.githedgehog.com/ingested-at: '2025-08-06T09:04:35.445695+00:00'
+    hnp.githedgehog.com/ingested-at: '2025-08-06T10:42:27.662298+00:00'
     hnp.githedgehog.com/ingestion-version: '1.0'
 spec:
   subnets:
