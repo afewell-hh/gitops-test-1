@@ -1,0 +1,17 @@
+# Server: server-06
+# Normalized by Hedgehog NetBox Plugin
+# Generated: 2025-08-06 10:42:27 UTC
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Server
+metadata:
+  name: server-06
+  annotations:
+    hnp.githedgehog.com/managed-by: hedgehog-netbox-plugin
+    hnp.githedgehog.com/fabric: FGD Sync Validation Fabric
+    hnp.githedgehog.com/original-file: prepop.yaml
+    hnp.githedgehog.com/original-document-index: '15'
+    hnp.githedgehog.com/ingested-at: '2025-08-06T10:42:27.617576+00:00'
+    hnp.githedgehog.com/ingestion-version: '1.0'
+spec:
+  description: S-06 ESLAG leaf-03 leaf-04
