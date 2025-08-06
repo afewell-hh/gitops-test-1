@@ -1,0 +1,27 @@
+# Switch: leaf-01
+# Normalized by Hedgehog NetBox Plugin
+# Generated: 2025-08-06 10:42:27 UTC
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Switch
+metadata:
+  name: leaf-01
+  annotations:
+    hnp.githedgehog.com/managed-by: hedgehog-netbox-plugin
+    hnp.githedgehog.com/fabric: FGD Sync Validation Fabric
+    hnp.githedgehog.com/original-file: prepop.yaml
+    hnp.githedgehog.com/original-document-index: '3'
+    hnp.githedgehog.com/ingested-at: '2025-08-06T10:42:27.605870+00:00'
+    hnp.githedgehog.com/ingestion-version: '1.0'
+spec:
+  boot:
+    mac: 0c:20:12:ff:00:00
+  description: VS-01 MCLAG 1
+  ecmp: {}
+  groups:
+  - mclag-1
+  profile: vs
+  redundancy:
+    group: mclag-1
+    type: mclag
+  role: server-leaf
