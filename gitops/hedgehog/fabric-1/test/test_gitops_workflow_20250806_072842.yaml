@@ -1,0 +1,8 @@
+apiVersion: test.hedgehog.io/v1
+kind: GitOpsTest
+metadata:
+  name: minimal-workflow-test
+  timestamp: '2025-08-06T07:28:42.245023'
+spec:
+  processed_files: 2
+  test_status: success
