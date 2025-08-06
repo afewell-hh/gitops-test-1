@@ -1,0 +1,22 @@
+# Connection: server-03--unbundled--leaf-01
+# Normalized by Hedgehog NetBox Plugin
+# Generated: 2025-08-06 10:42:27 UTC
+---
+apiVersion: wiring.githedgehog.com/v1beta1
+kind: Connection
+metadata:
+  name: server-03--unbundled--leaf-01
+  annotations:
+    hnp.githedgehog.com/managed-by: hedgehog-netbox-plugin
+    hnp.githedgehog.com/fabric: FGD Sync Validation Fabric
+    hnp.githedgehog.com/original-file: prepop.yaml
+    hnp.githedgehog.com/original-document-index: '28'
+    hnp.githedgehog.com/ingested-at: '2025-08-06T10:42:27.631535+00:00'
+    hnp.githedgehog.com/ingestion-version: '1.0'
+spec:
+  unbundled:
+    link:
+      server:
+        port: server-03/enp2s1
+      switch:
+        port: leaf-01/E1/7
